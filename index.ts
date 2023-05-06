@@ -6,5 +6,3 @@ function greeting(name: string){
     console.log("Ola " + name);
 }
 greeting(firstName)
-greeting(anotherName)
-greeting(x)
