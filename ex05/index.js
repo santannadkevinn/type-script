@@ -4,8 +4,12 @@ const valores = [10, 'valores', 20, 'preco', 30, 'taxa', 40, 'merda', 50,];
 function maiorQueDez(data) {
     return data.filter((n) => n > 10);
 }
-function filtrar(data) {
+function filtrarValores(data) {
     return data.filter((item) => typeof item === 'number');
 }
 console.log(maiorQueDez(numeros));
 console.log(filtrarValores(valores));
+const dados = [
+    ['senhor dos aneis', 80],
+    [' a guerra dos tronos', 129]
+];
